@@ -1,0 +1,28 @@
+﻿body {
+}
+
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.MenuDiv {
+    border-color:black;
+    width:auto;
+    display:inline-block;
+    border:initial;
+    float:left;
+    
+
+}
+.content {
+    display:inline-block;
+    width:auto;
+    margin-top:1px;
+}
+
+.gridview {
+    overflow:unset;
+
+}

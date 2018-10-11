@@ -1,6 +1,6 @@
-﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="AclXraySample._Default" %>
+﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/ACLXray.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="AclXraySample._Default" %>
 
-<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+<asp:Content ID="BodyContent" ContentPlaceHolderID="Main" runat="server">
 
     <div class="jumbotron">
         <h1>ASP.NET</h1>

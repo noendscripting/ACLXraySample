@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="Default.aspx" title="Home"  description="Welcome Page">
+    <siteMapNode url="~/ReportPages/ADAdminCountReport.aspx" title="AD Admin Count Reports"  description="Explanation what report shows" />
+    <siteMapNode url="~/ReportPages/ADAdminSDHolderReport.aspx" title="AD Admin SD Holder Report"  description="Explanation what report shows" />
+    <siteMapNode url="Setup.aspx" title="Initial Setup" />
+  </siteMapNode>
+</siteMap>

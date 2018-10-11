@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Folders clsid="{77CC39E7-3D16-4f8f-AF86-EC0BBEE2C861}"><Folder clsid="{07DA02F5-F9CD-4397-A550-4AE21B6B4BD3}" name="aclxray" status="aclxray" image="3" bypassErrors="1" changed="2018-02-19 21:36:51" uid="{8E0FBE0F-69FE-44D6-8C61-F3CF82A86106}" disabled="1"><Properties action="D" path="c:\program files\aclxray" deleteFolder="1" deleteSubFolders="1" deleteFiles="1" deleteReadOnly="1" deleteIgnoreErrors="1" readOnly="0" archive="1" hidden="0"/></Folder>
+</Folders>
+
+

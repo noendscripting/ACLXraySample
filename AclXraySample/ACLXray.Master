@@ -1,0 +1,37 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ACLXray.master.cs" Inherits="AclXraySample.ACLXray"  %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>ACLXray Project</title>
+    <link rel="stylesheet" type="text/css" href="Content/ACLXray.css" />
+    <%--<link rel="stylesheet" type="text/css" href="Content/bootstrap.css" />--%>
+</head>
+<body>
+    
+    <form id="form1" runat="server">
+        <div class="MenuDiv">
+            <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource1" ImageSet="Arrows">
+                      <HoverNodeStyle Font-Underline="True" ForeColor="#5555DD" />
+                      <NodeStyle Font-Names="Tahoma" Font-Size="10pt" ForeColor="Black" HorizontalPadding="5px" NodeSpacing="0px" VerticalPadding="0px" />
+                      <ParentNodeStyle Font-Bold="False" />
+                      <SelectedNodeStyle Font-Underline="True" ForeColor="#5555DD" HorizontalPadding="0px" VerticalPadding="0px" />
+            </asp:TreeView>
+            <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+           
+        </div>
+        <div id="header">
+                  <%--<span class="title">Northwind Data Tutorials</span>
+                  <span class="breadcrumb">Todo: Breadcrumb will go here...</span>--%>
+                  
+              </div>
+        <div class="content">
+
+            <asp:ContentPlaceHolder ID="Main" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        
+    </form>
+</body>
+</html>
